@@ -16,5 +16,9 @@ for i in range(N):
 for i in range(0, N):
     for j in range(0, M):
         list1[i][j] += list2[i][j]
+'''
         print(list1[i][j], end = ' ')
     print()
+'''
+for i in range(N):
+    print(" ".join(map(str,list1[i])))
